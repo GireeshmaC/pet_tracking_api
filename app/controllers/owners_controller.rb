@@ -1,6 +1,6 @@
 # app/controllers/owners_controller.rb
 class OwnersController < ApplicationController
-  before_action :set_owner, only: [:show, :update, :destroy, :pets]
+  before_action :set_owner, only: [ :show, :update, :destroy, :pets ]
 
   def index
     render json: Owner.all
