@@ -6,8 +6,9 @@ A Ruby on Rails API-only application for managing pet and owner data.
 
 - Ruby
 - Rails API
-- SQLite3
 - Active Record
+- SQLite3
+- Postman
 
 ## Features
 
@@ -15,6 +16,10 @@ A Ruby on Rails API-only application for managing pet and owner data.
 - Create and manage pets
 - Associate pets with owners
 
+## How I made the setup:
+
+### Step 1: Created a new Rails API
+In the terminal '''rails new pet_tracker_api --api'''
 ## Models
 
 ### Owner
@@ -23,7 +28,7 @@ A Ruby on Rails API-only application for managing pet and owner data.
 ### Pet
 - belongs_to :owner
 
-## Setup
+## How you can Clone the setup:
 
 1. Clone the repository
 2. Move into the project folder:
